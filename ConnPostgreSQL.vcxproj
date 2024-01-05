@@ -73,8 +73,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ReferencePath>$(ReferencePath)</ReferencePath>
-    <IncludePath>D:\Documents\A_Source\OpenSource\libpqxx\out\build\x64-Debug\include</IncludePath>
-    <LibraryPath>D:\Documents\A_Source\OpenSource\libpqxx\out\build\x64-Debug\src;$(LibraryPath)</LibraryPath>
+    <IncludePath>x64-Debug\include</IncludePath>
+    <LibraryPath>x64-Debug\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>x64-Debug\include;$(IncludePath)</IncludePath>
